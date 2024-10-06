@@ -1,0 +1,4 @@
+
+.section-full-w {
+    @apply absolute w-full h-full
+}
