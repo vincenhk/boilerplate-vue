@@ -1,2 +1,12 @@
 @import './base.css';
 @import './exsetup/additional.css';
+@import './custom-internal.css';
+
+@import '@/assets/icons/fontawesome/css/all.min.css';
+@import '@/assets/icons/fontawesome/css/brands.min.css';
+@import '@/assets/icons/fontawesome/css/fontawesome.min.css';
+@import '@/assets/icons/fontawesome/css/solid.min.css';
+@import '@/assets/icons/fontawesome/css/svg-with-js.min.css';
+@import '@/assets/icons/fontawesome/css/v4-font-face.min.css';
+@import '@/assets/icons/fontawesome/css/v5-font-face.min.css';
+@import '@/assets/icons/fontawesome/css/v4-shims.min.css';

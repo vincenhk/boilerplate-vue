@@ -1,0 +1,18 @@
+
+
+.input-basic {
+    @apply rounded border-2 p-1.5
+}
+
+.input-invisible {
+    @apply rounded p-1.5
+}
+
+.button-long {
+    @apply w-full rounded-xl bg-amber-300 p-1.5 font-bold hover:bg-amber-400
+}
+
+ErrorMessage {
+    @apply italic text-red-500
+}
+
