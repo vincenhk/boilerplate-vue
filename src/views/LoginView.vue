@@ -27,7 +27,7 @@ const schemaRule = {
     <!-- Background overlay -->
     <div class="absolute z-10 inset-0 bg-white h-full w-full p-0"></div>
     <div class="relative z-20">
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-1 sm:grid-cols-2">
         <!-- Form -->
         <div class="flex justify-center items-center">
           <div class="max-w-xs">
@@ -38,7 +38,7 @@ const schemaRule = {
             </div>
 
             <Form class="text-sm pt-5" :validation-schema="schemaRule" @submit.prevent="">
-              <div class="space-y-2">
+              <div class="space-y-4">
                 <div class="space-y-1">
                   <label :for="formLogin.nik.name" class="font-bold text-xs"> NIK </label>
                   <div>
@@ -53,17 +53,16 @@ const schemaRule = {
                     <button type="button" class="px-2"><i :class="showPassword ? 'fa fa-eye-slash' : 'fa fa-eye'" class="text-gray-400" @click="togglePasswordVisibility"></i></button>
                   </div>
                   <ErrorMessage class="italic text-red-500 text-xs" :name="formLogin.password.name" />
-
                 </div>
-                <button class="text-sm button-long">Masuk</button>
+                <button class=" text-sm button-long">Masuk</button>
               </div>
             </Form>
           </div>
 
         </div>
-        <div class="relative flex justify-center bg-amber-400 h-screen">
+        <div class="relative flex justify-center bg-amber-400 h-screen md:z-0">
           <img src="../assets/img/ilustration-people.png" alt="Logo" class="absolute h-screen object-cover">
-          <img src="../assets/img/logo-admf.png" alt="Logo" class="absolute object-cover right-0 pr-10 pt-5">
+          <img src="../assets/img/logo-admf.png" alt="Logo" class="absolute object-cover bottom-0 pr-10 pb-5 right-0 lg:top-0 lg:pr-10 lg:pt-5">
         </div>
       </div>
 

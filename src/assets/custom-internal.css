@@ -1,11 +1,11 @@
 
 
 .input-basic {
-    @apply rounded border-2 p-1.5
+    @apply rounded border-2 p-2
 }
 
 .input-invisible {
-    @apply rounded p-1.5
+    @apply rounded p-2
 }
 
 .button-long {
